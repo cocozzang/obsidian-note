@@ -64,7 +64,7 @@ $$
 **④ $L$ (극한값이 함수값과 같음)**
 
 - $x = a$에서 $f(a) = L$이며 극한값도 $L$
-  ![Def-1](./images/function-limit/def-1.png.png)
+  ![Def-1|600](./images/01-function-limit/def-1.png)
 
 ## 2. 예제
 
@@ -106,7 +106,7 @@ $$
 
 정의역이 $\{x \mid -1 \leq x \leq 3\}$인 함수 $y = f(x)$의 그래프가 그림과 같을 때, [보기]에서 옳은 것을 모두 고른 것은?
 
-![예제2 그래프](./images/function-limit/exercise-2.png)
+![예제2 그래프|400](./images/01-function-limit/exercise-2.png)
 
 **[보기]**
 

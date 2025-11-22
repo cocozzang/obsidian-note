@@ -134,9 +134,9 @@ $\lim_{x \to a} g(f(x))$에서 $f(x) = t$라 치환하여 쓴다.
 
 ## 예제 9
 
-- [ ] 함수 $f(x)$의 그래프가 오른쪽과 같을 때 다음 극한 값을 계산하시오.
+함수 $f(x)$의 그래프가 오른쪽과 같을 때 다음 극한 값을 계산하시오.
 
-![예제9](./images/function-limit/exercise-9.png)
+![예제9|400](./images/01-function-limit/exercise-9.png)
 
 ### (1) $\lim_{x \to -1} f(x)$
 

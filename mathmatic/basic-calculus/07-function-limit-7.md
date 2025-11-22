@@ -220,7 +220,7 @@ $f(c) = 0$인 $c$가 구간 $(a, b)$에
 (즉, Thm(12)의 **역은 성립하지 않는다.**)
 계단함수 $y = [x]$ ($0 \leq x \leq 2$)는 최댓값 2, 최솟값 0을 가지지만 불연속
 
-![thm12](./images/function-limit/thm12.png)
+![thm12|400](./images/01-function-limit/thm12.png)
 
 ---
 
@@ -228,7 +228,7 @@ $f(c) = 0$인 $c$가 구간 $(a, b)$에
 
 구간 $(-1, 6)$에서 정의된 함수 $y = f(x)$의 그래프가 오른쪽 그림과 같을 때 $f(x)$에 대한 설명 중 옳지 않은 것은?
 
-![exercise40](./images/function-limit/exercise40.png)
+![exercise40|400](./images/01-function-limit/exercise40.png)
 
 ① 불연속이 되는 $x$의 값은 2개다.  
 ② 구간 $[1, 3]$에서 최댓값을 갖는다.  

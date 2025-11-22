@@ -23,7 +23,7 @@ $f(x) \leq h(x) \leq g(x)$이고 $\lim_{x \to a} f(x) = \lim_{x \to a} g(x) = L$
 
 > **해석:** 함수 $h(x)$가 두 함수 $f(x)$와 $g(x)$ 사이에 끼여 있고, 두 바깥쪽 함수가 같은 극한값 $L$로 수렴하면, 가운데 함수 $h(x)$도 반드시 같은 값 $L$로 수렴한다.
 
-![샌드위치 정리](./images/function-limit/thm-4.png)
+![샌드위치 정리|400](./images/01-function-limit/thm-4.png)
 
 ---
 

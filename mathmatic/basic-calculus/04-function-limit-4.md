@@ -47,7 +47,7 @@ $x = a$에서 함수 $f(x)$가 연속이려면:
 
 **특징:** $f(a)$와 $\lim_{x \to a} f(x)$ 모두 존재하지만, $\lim_{x \to a} f(x) \neq f(a)$
 
-![불연속의 3가지 패턴](./images/function-limit/thm-6.png)
+![불연속의 3가지 패턴|400](./images/01-function-limit/thm-6.png)
 
 ---
 
