@@ -1,0 +1,213 @@
+---
+id: 9dead604-1121-4a3f-9491-dbdc363fcabe
+aliases:
+  - trigonometry cheat sheet
+  - 삼각법 공식정리
+tags:
+  - 특수각
+  - 사인법칙
+  - 코사인법칙
+  - 덧셈정리
+  - 덧셈정리응용
+  - 배각공식
+  - 반각공식
+  - 2배각공식
+  - 3배각공식
+  - 직선의예각
+subject: 대학기초수학
+title: 삼각법 공식정리
+topics:
+  - topic
+---
+
+# 삼각법 공식 정리 (Cheat Sheet)
+
+## 특수각의 삼각함수 값
+
+### sin 0°,30°,45°,60°,90°= ?
+
+> [!check]- 답
+> $$0 ,\; \frac{1}{2} ,\; \frac{\sqrt{2}}{2} ,\; \frac{\sqrt{3}}{2} ,\; 1$$
+
+### cos 0°,30°,45°,60°,90°= ?
+
+> [!check]- 답
+> $$1 ,\; \frac{\sqrt{3}}{2} ,\; \frac{\sqrt{2}}{2} ,\; \frac{1}{2} ,\; 0$$
+
+### tan 0°,30°,45°,60°,90°= ?
+
+> [!check]- 답
+> $$0 ,\; \frac{\sqrt{3}}{3} ,\; 1 ,\; \sqrt{3} ,\; \infty$$
+
+---
+
+## 삼각 항등식
+
+### 삼각 항등식 3개 ㄱ
+
+> [!check]- 답
+> $$\sin^2\theta + \cos^2\theta = 1$$
+> $$1 + \tan^2\theta = \sec^2\theta$$
+> $$1 + \cot^2\theta = \csc^2\theta$$
+> ![삼각 항등식 증명 | 400](./images/02-advanced-trigonometry/trigonometry-identity.png)
+
+---
+
+## 사인 법칙
+
+### 사인 법칙 (변과 각의 관계)
+
+> [!check]- 답
+> $$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$
+
+### 사인 법칙 (외접원의 반지름)
+
+> [!check]- 답
+> $$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R$$
+> (R: 외접원의 반지름)
+
+---
+
+## 코사인 법칙
+
+### 코사인 법칙: a² = ?
+
+> [!check]- 답
+> $$a^2 = b^2 + c^2 - 2bc\cos A$$
+
+### 코사인 법칙: b² = ?
+
+> [!check]- 답
+> $$b^2 = a^2 + c^2 - 2ac\cos B$$
+
+### 코사인 법칙: cos A = ?
+
+> [!check]- 답
+> $$\cos A = \frac{b^2 + c^2 - a^2}{2bc}$$
+
+---
+
+## 덧셈정리
+
+### sin(α + β) = ?
+
+> [!check]- 답
+> $$\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta$$
+
+### sin(α - β) = ?
+
+> [!check]- 답
+> $$\sin(\alpha - \beta) = \sin\alpha\cos\beta - \cos\alpha\sin\beta$$
+
+### cos(α + β) = ?
+
+> [!check]- 답
+> $$\cos(\alpha + \beta) = \cos\alpha\cos\beta - \sin\alpha\sin\beta$$
+
+### cos(α - β) = ?
+
+> [!check]- 답
+> $$\cos(\alpha - \beta) = \cos\alpha\cos\beta + \sin\alpha\sin\beta$$
+
+### tan(α + β) = ?
+
+> [!check]- 답
+> $$\tan(\alpha + \beta) = \frac{\tan\alpha + \tan\beta}{1 - \tan\alpha\tan\beta}$$
+
+### tan(α - β) = ?
+
+> [!check]- 답
+> $$\tan(\alpha - \beta) = \frac{\tan\alpha - \tan\beta}{1 + \tan\alpha\tan\beta}$$
+
+---
+
+## 덧셈정리 응용
+
+### α + β = π/2 일 때, sin²α + sin²β = ?
+
+> [!check]- 답
+> $$\sin^2\alpha + \sin^2\beta = 1$$
+
+### 두 각이 여각일 때, tan α · tan β = ?
+
+> [!check]- 답
+> $$\tan\alpha \cdot \tan\beta = 1$$
+
+### α + β = π/4 일 때, (1 + tan α)(1 + tan β) = ?
+
+> [!check]- 답
+> $$(1 + \tan\alpha)(1 + \tan\beta) = 2$$
+
+### α + β = 3π/4 일 때, (1 - tan α)(1 - tan β) = ?
+
+> [!check]- 답
+> $$(1 - \tan\alpha)(1 - \tan\beta) = 2$$
+
+### 기울기가 m₁, m₂인 두 직선이 이루는 예각 θ의 tan θ = ?
+
+> [!check]- 답
+> $$\tan\theta = \left|\frac{m_1 - m_2}{1 + m_1 \cdot m_2}\right|$$
+
+---
+
+## 배각 공식
+
+### sin 2α = ? (2가지 형식)
+
+> [!check]- 답
+> $$= 2\sin\alpha\cos\alpha$$
+> $$= \frac{2\tan\alpha}{1+\tan^2\alpha}$$
+
+### cos 2α = ? (4가지 형식)
+
+> [!check]- 답
+>
+> $$= \cos^2\alpha - \sin^2\alpha$$
+> $$= 2\cos^2\alpha - 1$$
+> $$= 1 - 2\sin^2\alpha$$
+> $$= \frac{1-\tan^2\alpha}{1+\tan^2\alpha}$$
+
+### tan 2α = ?
+
+> [!check]- 답
+> $$\tan 2\alpha = \frac{2\tan\alpha}{1 - \tan^2\alpha}$$
+
+---
+
+## 3배각 공식
+
+### sin 3α = ? (sin α로 표현)
+
+> [!check]- 답
+> $$\sin 3\alpha = 3\sin\alpha - 4\sin^3\alpha$$
+
+### cos 3α = ? (cos α로 표현)
+
+> [!check]- 답
+> $$\cos 3\alpha = 4\cos^3\alpha - 3\cos\alpha$$
+
+### tan 3α = ?
+
+> [!check]- 답
+> $$\tan 3\alpha = \frac{3\tan\alpha - \tan^3\alpha}{1 - 3\tan^2\alpha}$$
+
+---
+
+## 반각 공식
+
+### sin²α = ? (cos 2α를 이용)
+
+> [!check]- 답
+> $$\sin^2\alpha = \frac{1 - \cos 2\alpha}{2}$$
+
+### cos²α = ? (cos 2α를 이용)
+
+> [!check]- 답
+> $$\cos^2\alpha = \frac{1 + \cos 2\alpha}{2}$$
+
+### tan²α = ? (cos 2α를 이용)
+
+> [!check]- 답
+> $$\tan^2\alpha = \frac{1 - \cos 2\alpha}{1 + \cos 2\alpha}$$
+
+---
