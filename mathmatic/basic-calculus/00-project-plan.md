@@ -215,11 +215,11 @@ y
 
 | 강의 | 주제                                      | 페이지  | 파일명                              | 상태 |
 | ---- | ----------------------------------------- | ------- | ----------------------------------- | ---- |
-| 8강  | 심화삼각함수(1) - 덧셈정리                | p.21-23 | 08-advanced-trigonometry-1.md       | ⬜   |
-| 9강  | 심화삼각함수(2) - 덧셈정리 응용, 배각공식 | p.24-26 | 09-advanced-trigonometry-2.md       | ⬜   |
-| 10강 | 심화삼각함수(3) - 배각공식 문제풀이       | p.27-29 | 10-advanced-trigonometry-3.md       | ⬜   |
-| 11강 | 심화삼각함수(4) - 기타공식                | p.30-32 | 11-advanced-trigonometry-4.md       | ⬜   |
-| 12강 | 심화삼각함수(5) - 삼각함수의 합성         | p.33-35 | 12-advanced-trigonometry-5.md       | ⬜   |
+| 8강  | 심화삼각함수(1) - 덧셈정리                | p.21-23 | 08-advanced-trigonometry-1.md       | ✅   |
+| 9강  | 심화삼각함수(2) - 덧셈정리 응용, 배각공식 | p.24-26 | 09-advanced-trigonometry-2.md       | ✅   |
+| 10강 | 심화삼각함수(3) - 배각공식 문제풀이       | p.27-29 | 10-advanced-trigonometry-3.md       | ✅   |
+| 11강 | 심화삼각함수(4) - 기타공식                | p.30-32 | 11-advanced-trigonometry-4.md       | ✅   |
+| 12강 | 심화삼각함수(5) - 삼각함수의 합성         | p.33-35 | 12-advanced-trigonometry-5.md       | ✅   |
 | 13강 | 초월함수의 극한(1)                        | p.36-38 | 13-transcendental-limit-1.md        | ⬜   |
 | 14강 | 초월함수의 극한(2)                        | p.39-42 | 14-transcendental-limit-2.md        | ⬜   |
 | 15강 | 초월함수의 극한(3)                        | p.43-45 | 15-transcendental-limit-3.md        | ⬜   |
