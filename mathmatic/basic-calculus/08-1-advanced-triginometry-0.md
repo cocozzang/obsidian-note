@@ -14,6 +14,8 @@ tags:
   - 2배각공식
   - 3배각공식
   - 직선의예각
+  - 기타공식
+  - 삼각함수합성
 subject: 대학기초수학
 title: 삼각법 공식정리
 topics:
@@ -209,5 +211,71 @@ topics:
 
 > [!check]- 답
 > $$\tan^2\alpha = \frac{1 - \cos 2\alpha}{1 + \cos 2\alpha}$$
+
+---
+
+## 기타공식 (Thm 16)
+
+### 합차를 곱으로 (1): sin A + sin B = ?
+
+> [!check]- 답
+> $$\sin A + \sin B = 2\sin\frac{A+B}{2}\cos\frac{A-B}{2}$$
+
+### 합차를 곱으로 (2): sin A - sin B = ?
+
+> [!check]- 답
+> $$\sin A - \sin B = 2\cos\frac{A+B}{2}\sin\frac{A-B}{2}$$
+
+### 합차를 곱으로 (3): cos A + cos B = ?
+
+> [!check]- 답
+> $$\cos A + \cos B = 2\cos\frac{A+B}{2}\cos\frac{A-B}{2}$$
+
+### 합차를 곱으로 (4): cos A - cos B = ?
+
+> [!check]- 답
+> $$\cos A - \cos B = -2\sin\frac{A+B}{2}\sin\frac{A-B}{2}$$
+
+### 곱을 합차로 (1): sin α cos β = ?
+
+> [!check]- 답
+> $$\sin\alpha\cos\beta = \frac{1}{2}\{\sin(\alpha+\beta)+\sin(\alpha-\beta)\}$$
+
+### 곱을 합차로 (2): cos α sin β = ?
+
+> [!check]- 답
+> $$\cos\alpha\sin\beta = \frac{1}{2}\{\sin(\alpha+\beta)-\sin(\alpha-\beta)\}$$
+
+### 곱을 합차로 (3): cos α cos β = ?
+
+> [!check]- 답
+> $$\cos\alpha\cos\beta = \frac{1}{2}\{\cos(\alpha+\beta)+\cos(\alpha-\beta)\}$$
+
+### 곱을 합차로 (4): sin α sin β = ?
+
+> [!check]- 답
+> $$\sin\alpha\sin\beta = -\frac{1}{2}\{\cos(\alpha+\beta)-\cos(\alpha-\beta)\}$$
+
+---
+
+## 삼각함수의 합성 (Thm 17)
+
+### 합성 공식 (1): a sin θ + b cos θ = ? (sin으로 합성)
+
+> [!check]- 답
+> $$a\sin\theta + b\cos\theta = \sqrt{a^2 + b^2} \sin(\theta + \alpha)$$
+> 단, $\tan\alpha = \frac{b}{a}$
+
+### 합성 공식 (2): a sin θ + b cos θ = ? (cos으로 합성)
+
+> [!check]- 답
+> $$a\sin\theta + b\cos\theta = \sqrt{a^2 + b^2} \cos(\theta - \beta)$$
+> 단, $\tan\beta = \frac{a}{b}$
+
+### 합성의 기하학적 의미 (벡터 내적)
+
+> [!check]- 답
+> $$a\sin\theta + b\cos\theta = (\cos\theta, \sin\theta) \cdot (b, a) = \vec{a} \cdot \vec{b} = |\vec{a}||\vec{b}|\cos\gamma$$
+> $\gamma = 0°$일 때 내적이 최댓값을 가진다.
 
 ---
