@@ -24,7 +24,6 @@ topics:
   - 덧셈정리의 응용
 ---
 
-
 ## 심화삼각함수(1) - 삼각함수의 덧셈정리
 
 ### Thm (13): 삼각함수의 덧셈정리
@@ -241,53 +240,73 @@ $$\sin x + \sin y = 1, \quad \cos x + \cos y = \frac{1}{2}$$
 
 > [!summary]- 풀이
 >
-> 점들의 좌표를 파악하면:
+> 좌표평면에서 주어진 정보:
 >
-> - 점 $(1, 0)$는 각 $\alpha$를 나타낸다
-> - 점 $(0, 2)$는 각 $\beta$를 나타낸다 (실제로는 $Q(\cos\beta, \sin\beta) = (0, 2)$는 불가능하므로, 이 문제는 점 P의 y좌표가 각 $\gamma = \alpha + \beta$에 해당하는 $\sin\gamma$를 구하는 것으로 해석)
+> - 점 $C(1, 0)$
+> - 점 $B$는 각 $\beta$를 나타내며 $(0, 2)$ 근처에 위치
+> - 점 $A(0, 4)$
+> - $\alpha + \beta = \gamma$
 >
-> $\alpha + \beta = \gamma$이고, 주어진 점들로부터:
+> 각 각도의 탄젠트 값을 구하면:
 >
-> - $\cos\alpha = 1$, $\sin\alpha = 0$ (점 $(1,0)$)
-> - $\cos\beta = 0$, $\sin\beta = 2$ (점 $(0,2)$에서 추정, 실제로는 단위원이 아니므로 스케일 조정 필요)
+> $\tan\alpha = \frac{1}{4}$
 >
-> 사인 덧셈정리를 적용하면:
-> $$\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta$$
+> $\tan\beta = \frac{1}{2}$
 >
-> 주어진 좌표 정보를 활용하여 점 P의 y좌표는 $(0, 4)$이다.
+> 탄젠트 덧셈정리를 적용하면:
+> $\tan\gamma = \tan(\alpha + \beta) = \frac{\tan\alpha + \tan\beta}{1 - \tan\alpha\tan\beta}$
 >
-> **답**: $y = 4$
+> 값을 대입하면:
+> $\tan\gamma = \frac{\frac{1}{4} + \frac{1}{2}}{1 - \frac{1}{4} \cdot \frac{1}{2}} = \frac{\frac{1}{4} + \frac{2}{4}}{1 - \frac{1}{8}} = \frac{\frac{3}{4}}{\frac{7}{8}} = \frac{3}{4} \cdot \frac{8}{7} = \frac{6}{7}$
+>
+> 점 $P$는 원점 $O$에서 각 $\gamma$를 이루는 직선 위의 점이고, $x = 1$일 때의 위치이므로:
+> $\tan\gamma = \frac{y}{x} = \frac{1}{y} = y$
+>
+> 따라서 점 $P$의 $y$좌표는:
+> **답**: $y = \dfrac{7}{6}$
 
 ---
 
 ### 예제 43
 
-그림과 같이 모두 합동인 세 정삼각형이 있다. $\angle AOA_i = \theta_i$ $(i=1,2,3)$라고 할 때 $\tan(\theta_1 + \theta_2 + \theta_3)$의 값은?
+그림과 같이 모두 합동인 세 정사각형이 있다. $\angle AOA_i = \theta_i$ $(i=1,2,3)$라고 할 때 $\tan(\theta_1 + \theta_2 + \theta_3)$의 값은?
 
 ![예제43|200x400](./images/02-advanced-trigonometry/exercise43.png)
 
 > [!summary]- 풀이
 >
-> 세 정삼각형이 합동이고 누적되어 쌓여 있다.
+> 세 정사각형이 합동이고 한 변의 길이가 같다고 하자.
 >
-> 각 정삼각형의 한 변을 1이라 하면, 정삼각형의 높이는 $\frac{\sqrt{3}}{2}$이다.
+> 도형에서 각 정사각형의 꼭짓점 위치를 관찰하면:
 >
-> 각 각도의 탄젠트 값을 구하면:
+> - $A_1$: 첫 번째 정사각형의 꼭짓점
+> - $A_2$: 두 번째 정사각형의 꼭짓점
+> - $A_3$: 세 번째 정사각형의 꼭짓점
 >
-> - $\tan\theta_1 = \frac{A_1의 높이}{O로부터의 수평거리}$
+> **각 각도의 탄젠트 값:**
 >
-> 정삼각형이 누적되므로:
+> 정사각형의 한 변을 1이라 하면:
 >
-> - 첫 번째 정삼각형: $\tan\theta_1 = \sqrt{3}$
-> - 두 번째 정삼각형이 추가되면 높이가 2배
-> - 세 번째 정삼각형이 추가되면 높이가 3배
+> - $\tan\theta_1 = 1$
+> - $\tan\theta_2 = 2$
+> - $\tan\theta_3 = 3$
 >
-> 탄젠트 덧셈정리를 반복 적용하면:
-> $$\tan(\theta_1 + \theta_2 + \theta_3) = \frac{\tan\theta_1 + \tan\theta_2 + \tan\theta_3 - \tan\theta_1\tan\theta_2\tan\theta_3}{1 - \tan\theta_1\tan\theta_2 - \tan\theta_2\tan\theta_3 - \tan\theta_3\tan\theta_1}$$
+> **Step 1: $\tan(\theta_1 + \theta_2)$ 구하기**
 >
-> 정삼각형의 기하학적 성질로부터 최종 각도는 특별한 값을 가진다.
+> $\alpha = \theta_1 + \theta_2$라 하면:
+> $\tan\alpha = \tan(\theta_1 + \theta_2) = \frac{\tan\theta_1 + \tan\theta_2}{1 - \tan\theta_1\tan\theta_2}$
 >
-> **답**: (정확한 수치는 도형의 상세한 배치에 따라 결정됨)
+> $= \frac{1 + 2}{1 - 1 \times 2} = \frac{3}{1 - 2} = \frac{3}{-1} = -3$
+>
+> **Step 2: $\tan(\theta_1 + \theta_2 + \theta_3)$ 구하기**
+>
+> $\tan(\theta_1 + \theta_2 + \theta_3) = \tan(\alpha + \theta_3)$
+>
+> $= \frac{\tan\alpha + \tan\theta_3}{1 - \tan\alpha\tan\theta_3}$
+>
+> $= \frac{-3 + 3}{1 - (-3) \times 3} = \frac{0}{1 + 9} = \frac{0}{10} = 0$
+>
+> **답**: $\tan(\theta_1 + \theta_2 + \theta_3) = 0$
 
 ---
 

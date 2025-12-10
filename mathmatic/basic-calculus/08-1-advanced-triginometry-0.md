@@ -68,9 +68,26 @@ topics:
 > $$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R$$
 > (R: 외접원의 반지름)
 
+### 외접원을 이용한 사인 법칙 유도과정
+
+> [!check]- 답
+> [answer](https://m.blog.naver.com/mathfreedom/223102838002)
+
 ---
 
 ## 코사인 법칙
+
+![코사인법칙|400](./images/02-advanced-trigonometry/the-law-of-cosines.png)
+
+### 위 그림 예각삼각형의 각 변을 두 코사인의 합으로 나타내봐 : a = ?, b = ? , c = ?
+
+> [!check]- 답
+> $$a^2 = b^2 + c^2 - 2bc\cos A$$
+
+### 위 식으로 부터 코사인 법칙 공식을 유도해 보시오
+
+> [!check]- 답
+> [코사인법칙유도과정](https://mathbang.net/538)
 
 ### 코사인 법칙: a² = ?
 
@@ -120,6 +137,11 @@ topics:
 
 > [!check]- 답
 > $$\tan(\alpha - \beta) = \frac{\tan\alpha - \tan\beta}{1 + \tan\alpha\tan\beta}$$
+
+### sin cos tan 덧셈정리 유도과정
+
+> [!check]- 답
+> [[./08-advanced-trigonometry-1.md|덧셈정리 유도과정]]
 
 ---
 
@@ -187,11 +209,6 @@ topics:
 
 > [!check]- 답
 > $$\cos 3\alpha = 4\cos^3\alpha - 3\cos\alpha$$
-
-### tan 3α = ?
-
-> [!check]- 답
-> $$\tan 3\alpha = \frac{3\tan\alpha - \tan^3\alpha}{1 - 3\tan^2\alpha}$$
 
 ---
 

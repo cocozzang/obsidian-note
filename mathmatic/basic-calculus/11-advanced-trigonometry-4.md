@@ -95,6 +95,7 @@ $\cos\alpha\sin\beta = \frac{1}{2}\{\sin(\alpha+\beta) - \sin(\alpha-\beta)\}$
 **변수 치환을 통한 합차 공식 유도:**
 
 (ㄷ)에서 $\alpha + \beta = A$, $\alpha - \beta = B$로 놓으면:
+
 - $\alpha = \frac{A+B}{2}$
 - $\beta = \frac{A-B}{2}$
 
@@ -147,6 +148,7 @@ $\cos A - \cos B = -2\sin\frac{A+B}{2}\sin\frac{A-B}{2}$
 ### 공식의 활용
 
 **합차를 곱으로**: $A = \alpha + \beta$, $B = \alpha - \beta$로 치환하면
+
 - $\frac{A+B}{2} = \alpha$
 - $\frac{A-B}{2} = \beta$
 
@@ -163,24 +165,24 @@ $\cos A - \cos B = -2\sin\frac{A+B}{2}\sin\frac{A-B}{2}$
 > [!summary]- 풀이
 > 곱을 합차로 변환하는 공식을 사용:
 > $\sin(A+B)\sin(A-B) = -\frac{1}{2}\{\cos 2A - \cos 2B\}$
-> 
+>
 > 삼각형의 내각의 합에서 $A + B + C = \pi$이므로:
 > $\sin^2 A - \sin^2 B = \sin^2 C$
-> 
+>
 > 삼각형에서 사인 법칙을 적용하면:
 > $\sin A = \sin B + \sin C$
-> 
+>
 > 이를 정리하면:
 > $\left(\frac{a}{2R}\right)^2 = \left(\frac{b}{2R}\right)^2 + \left(\frac{c}{2R}\right)^2$
-> 
+>
 > 따라서 $a^2 = b^2 + c^2$
-> 
+>
 > 피타고라스 정리에 의해 삼각형 $ABC$는 직각삼각형이고:
 > $\angle A = \frac{\pi}{2} \text{ (직각)}$
-> 
+>
 > 또는 삼각형에서:
 > $\sin A = \frac{a}{2R}, \quad \sin B = \frac{b}{2R}, \quad \sin C = \frac{c}{2R}$
-> 
+>
 > 따라서 $\angle A = 90°$
 
 ---
@@ -194,15 +196,15 @@ $\sin20° \sin40° \sin80°$의 값을 구하여라.
 > $\sin40° \sin20° = -\frac{1}{2}\{\cos60° - \cos20°\}$
 > $= -\frac{1}{2}\left\{\frac{1}{2} - \cos20°\right\}$
 > $= -\frac{1}{4} + \frac{1}{2}\cos20°$
-> 
+>
 > 따라서:
 > $\sin20° \sin40° \sin80° = \left(-\frac{1}{4} + \frac{1}{2}\cos20°\right)\sin80°$
 > $= -\frac{1}{4}\sin80° + \frac{1}{2}\cos20°\sin80°$
-> 
+>
 > $\sin\alpha\cos\beta = \frac{1}{2}\{\sin(\alpha+\beta) + \sin(\alpha-\beta)\}$를 사용:
 > $= -\frac{1}{4}\sin80° + \frac{1}{2} \cdot \frac{1}{2}\{\sin100° + \sin60°\}$
 > $= -\frac{1}{4}\sin80° + \frac{1}{4}\sin100° + \frac{\sqrt{3}}{8}$
-> 
+>
 > $\sin100° = \sin(180° - 80°) = \sin80°$이므로:
 > $= -\frac{1}{4}\sin80° + \frac{1}{4}\sin80° + \frac{\sqrt{3}}{8}$
 > $= \frac{\sqrt{3}}{8}$
@@ -217,19 +219,19 @@ $\alpha = \frac{\pi}{18}$일 때 $\frac{\sin\alpha + \sin3\alpha + \sin5\alpha}{
 
 > [!summary]- 풀이
 > **분자:** $\sin\alpha + \sin3\alpha + \sin5\alpha$를 계산
-> 
+>
 > 곱을 합차로 변환하면:
 > $X \cdot \sin\alpha = \sin^2\alpha + \sin\alpha\sin3\alpha + \sin\alpha\sin5\alpha$
 > $= -\frac{1}{2}\{(\cos2\alpha - \cos0) + (\cos4\alpha - \cos2\alpha) + (\cos6\alpha - \cos4\alpha)\}$
 > $= -\frac{1}{2}\{-1 + \cos6\alpha\} = -\frac{1}{2}\left\{-1 + \cos\frac{\pi}{3}\right\} = \frac{1}{4}$
-> 
+>
 > **분모:** $\cos\alpha + \cos3\alpha + \cos5\alpha$를 계산
-> 
+>
 > 마찬가지로:
 > $Y \cdot \sin\alpha = \sin\alpha\cos\alpha + \sin\alpha\cos3\alpha + \sin\alpha\cos5\alpha$
 > $= \frac{1}{2}\{(\sin2\alpha - \sin0) + (\sin4\alpha - \sin2\alpha) + (\sin6\alpha - \sin4\alpha)\}$
 > $= \frac{1}{2}\sin6\alpha = \frac{1}{2} \cdot \frac{\sqrt{3}}{2} = \frac{\sqrt{3}}{4}$
-> 
+>
 > 따라서:
 > $\frac{\sin\alpha + \sin3\alpha + \sin5\alpha}{\cos\alpha + \cos3\alpha + \cos5\alpha} = \frac{X}{Y} = \frac{1/\sqrt{3}}{1} = \frac{1}{\sqrt{3}} = \frac{\sqrt{3}}{3}$
 
@@ -242,29 +244,29 @@ $\sin x + \sin y = \frac{2}{3}$, $\cos x \cos y = \frac{1}{2}$일 때 $\sin\frac
 > [!summary]- 풀이
 > 합차 공식을 사용:
 > $\sin x + \sin y = 2\sin\frac{x+y}{2}\cos\frac{x-y}{2} = \frac{2}{3}$
-> 
+>
 > 따라서:
 > $\sin\frac{x+y}{2}\cos\frac{x-y}{2} = \frac{1}{3} \quad \cdots \text{(ㄱ)}$
-> 
+>
 > 곱을 합차로 변환:
 > $\cos x \cos y = \frac{1}{2}\{\cos(x+y) + \cos(x-y)\} = \frac{1}{2}$
-> 
+>
 > 따라서:
 > $\cos(x+y) + \cos(x-y) = 1$
-> 
+>
 > 합차를 곱으로 변환:
 > $2\cos\frac{x+y}{2}\cos\frac{x-y}{2} = 1$
 > $\cos\frac{x+y}{2}\cos\frac{x-y}{2} = \frac{1}{2} \quad \cdots \text{(ㄴ)}$
-> 
+>
 > (ㄱ)과 (ㄴ)에서:
 > $X \cdot Y = \frac{1}{3}, \quad \text{여기서 } X = \sin\frac{x+y}{2}, Y = \cos\frac{x-y}{2}$
-> 
+>
 > 이를 정리하면:
 > $2X^2 - \frac{2}{9X^2} + 1 = 0$
 > $18X^4 + 9X^2 - 2 = 0$
-> 
+>
 > $X^2 = \frac{1}{6}$ 또는 $X^2 = \frac{-1}{3}$ (음수 제외)
-> 
+>
 > 따라서:
 > $\sin\frac{x+y}{2} = \pm\frac{1}{\sqrt{6}}$
 
@@ -277,21 +279,21 @@ $\theta = \frac{\pi}{10}$일 때 $\sin\theta\sin\theta + \sin3\theta\sin\theta +
 > [!summary]- 풀이
 > $\theta = \frac{\pi}{10}$이고, 구하려는 식을 $S$라 하면:
 > $S = \sin\theta\sin\theta + \sin3\theta\sin\theta + \sin5\theta\sin\theta + \sin7\theta\sin\theta + \sin9\theta\sin\theta$
-> 
+>
 > 각 항을 곱을 합차로 변환:
 > $\sin n\theta \sin\theta = -\frac{1}{2}\{\cos((n+1)\theta) - \cos((n-1)\theta)\}$
-> 
+>
 > 따라서:
 > $S = -\frac{1}{2}\{(\cos2\theta - \cos0) + (\cos4\theta - \cos2\theta) + (\cos6\theta - \cos4\theta)$
 > $+ (\cos8\theta - \cos6\theta) + (\cos10\theta - \cos8\theta)\}$
-> 
+>
 > 이는 망원급수(telescoping series)가 되어:
 > $S = -\frac{1}{2}\{\cos10\theta - \cos0\}$
 > $= -\frac{1}{2}\{\cos\pi - 1\}$
 > $= -\frac{1}{2}\{-1 - 1\}$
 > $= -\frac{1}{2} \times (-2)$
 > $= 1$
-> 
+>
 > **Note**: 여기서 각 항들이 연쇄적으로 소거되어 처음과 마지막 항만 남는 망원급수의 특성을 활용했습니다.
 
 ---
@@ -300,20 +302,20 @@ $\theta = \frac{\pi}{10}$일 때 $\sin\theta\sin\theta + \sin3\theta\sin\theta +
 
 ### 합차를 곱으로 (Thm 16)
 
-| 공식 | 형태 |
-|------|------|
-| $\sin A + \sin B$ | $2\sin\frac{A+B}{2}\cos\frac{A-B}{2}$ |
-| $\sin A - \sin B$ | $2\cos\frac{A+B}{2}\sin\frac{A-B}{2}$ |
-| $\cos A + \cos B$ | $2\cos\frac{A+B}{2}\cos\frac{A-B}{2}$ |
+| 공식              | 형태                                   |
+| ----------------- | -------------------------------------- |
+| $\sin A + \sin B$ | $2\sin\frac{A+B}{2}\cos\frac{A-B}{2}$  |
+| $\sin A - \sin B$ | $2\cos\frac{A+B}{2}\sin\frac{A-B}{2}$  |
+| $\cos A + \cos B$ | $2\cos\frac{A+B}{2}\cos\frac{A-B}{2}$  |
 | $\cos A - \cos B$ | $-2\sin\frac{A+B}{2}\sin\frac{A-B}{2}$ |
 
 ### 곱을 합차로
 
-| 공식 | 형태 |
-|------|------|
-| $\sin\alpha\cos\beta$ | $\frac{1}{2}\{\sin(\alpha+\beta)+\sin(\alpha-\beta)\}$ |
-| $\cos\alpha\sin\beta$ | $\frac{1}{2}\{\sin(\alpha+\beta)-\sin(\alpha-\beta)\}$ |
-| $\cos\alpha\cos\beta$ | $\frac{1}{2}\{\cos(\alpha+\beta)+\cos(\alpha-\beta)\}$ |
+| 공식                  | 형태                                                    |
+| --------------------- | ------------------------------------------------------- |
+| $\sin\alpha\cos\beta$ | $\frac{1}{2}\{\sin(\alpha+\beta)+\sin(\alpha-\beta)\}$  |
+| $\cos\alpha\sin\beta$ | $\frac{1}{2}\{\sin(\alpha+\beta)-\sin(\alpha-\beta)\}$  |
+| $\cos\alpha\cos\beta$ | $\frac{1}{2}\{\cos(\alpha+\beta)+\cos(\alpha-\beta)\}$  |
 | $\sin\alpha\sin\beta$ | $-\frac{1}{2}\{\cos(\alpha+\beta)-\cos(\alpha-\beta)\}$ |
 
 ---
