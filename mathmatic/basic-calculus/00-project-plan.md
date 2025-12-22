@@ -234,8 +234,8 @@ y
 | ---- | ------------------------------- | --------- | -------------------------------- | ---- |
 | 16강 | 변화율과 도함수(1)              | p.46-47   | 16-derivative-1.md               | ✅   |
 | 17강 | 변화율과 도함수(2)              | p.48-50   | 17-derivative-2.md               | ✅   |
-| 18강 | 변화율과 도함수(3)              | p.51-54   | 18-derivative-3.md               | ⬜   |
-| 19강 | 다항함수의 함수방정식           | p.55-57   | 19-polynomial-equation.md        | ⬜   |
+| 18강 | 변화율과 도함수(3)              | p.51-54   | 18-derivative-3.md               | ✅   |
+| 19강 | 다항함수의 함수방정식           | p.55-57   | 19-polynomial-function.md        | ✅   |
 | 20강 | 역함수의 미분계수, 미분가능성   | p.58-59   | 20-inverse-differentiability.md  | ⬜   |
 | 21강 | 미분가능성                      | p.60-62   | 21-differentiability.md          | ⬜   |
 | 22강 | 초월함수의 도함수(1)            | p.63      | 22-transcendental-derivative-1.md| ⬜   |
