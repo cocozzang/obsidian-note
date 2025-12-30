@@ -102,7 +102,11 @@ $$\boxed{\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x = e, \quad \lim_{x \
 #### 관련 공식들
 
 **2) 기본 변형**
-$$\lim_{x \to 0} \frac{a^x - 1}{x} = \ln a, \quad \lim_{x \to 0} \frac{e^x - 1}{x} = 1$$
+
+$$
+\lim_{x \to 0} \frac{a^x - 1}{x} = \ln a,
+\quad \lim_{x \to 0} \frac{e^x - 1}{x} = 1
+$$
 
 특히, $a = e$일 때:
 $$\lim_{x \to 0} \frac{e^x - 1}{x} = 1$$
@@ -122,9 +126,17 @@ $$x = \log_a(1+t)$$
 
 $x \to 0$일 때 $t \to 0$이므로:
 
-$$\lim_{x \to 0} \frac{a^x - 1}{x} = \lim_{t \to 0} \frac{t}{\log_a(1+t)} = \lim_{t \to 0} \frac{1}{\frac{\log_a(1+t)}{t}}=\lim_{t\to0}\frac{1}{log_a((1+t)^\frac{1}{t}}$$
+$$
+\lim_{x \to 0} \frac{a^x - 1}{x} 
+= \lim_{t \to 0} \frac{t}{\log_a(1+t)} 
+= \lim_{t \to 0} \frac{1}{\frac{\log_a(1+t)}{t}}
+=\lim_{t\to0}\frac{1}{log_a(1+t)^\frac{1}{t}}
+$$
 
-$$\lim_{t\to0}\frac{1}{log_a((1+t)^\frac{1}{t}}=\frac{1}{log_a e}=\ln a$$
+$$
+=\lim_{t\to0}\frac{1}{log_a(1+t)^\frac{1}{t}}
+=\frac{1}{log_a e}=\ln a
+$$
 
 **결론**: $\lim_{x \to 0} \frac{a^x - 1}{x} = \ln a$ ✓
 

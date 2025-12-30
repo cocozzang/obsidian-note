@@ -16,7 +16,7 @@ tags: []
 
 **위치**: `/Users/coco/obsidian/mathmatic/basic-calculus/`
 
-**진행 상황**: ✅ 17/65 완료 (26.2%)
+**진행 상황**: ✅ 18/65 완료 (27.7%)
 
 **강의 분량**: 65강 (총 210페이지)
 
@@ -236,11 +236,11 @@ y
 | 17강 | 변화율과 도함수(2)              | p.48-50   | 17-derivative-2.md               | ✅   |
 | 18강 | 변화율과 도함수(3)              | p.51-54   | 18-derivative-3.md               | ✅   |
 | 19강 | 다항함수의 함수방정식           | p.55-57   | 19-polynomial-function.md        | ✅   |
-| 20강 | 역함수의 미분계수, 미분가능성   | p.58-59   | 20-inverse-differentiability.md  | ⬜   |
-| 21강 | 미분가능성                      | p.60-62   | 21-differentiability.md          | ⬜   |
-| 22강 | 초월함수의 도함수(1)            | p.63      | 22-transcendental-derivative-1.md| ⬜   |
-| 23강 | 초월함수의 도함수(2)            | p.64-66   | 23-transcendental-derivative-2.md| ⬜   |
-| 24강 | 초월함수의 연속과 미분가능성    | p.67-69   | 24-transcendental-continuity.md  | ⬜   |
+| 20강 | 역함수의 미분계수, 미분가능성   | p.58-59   | 20-inverse-differentiability.md  | ✅   |
+| 21강 | 미분가능성                      | p.60-62   | 21-differentiability.md          | ✅   |
+| 22강 | 초월함수의 도함수(1)            | p.63      | 22-transcendental-derivative-1.md| ✅   |
+| 23강 | 초월함수의 도함수(2)            | p.64-66   | 23-transcendental-derivative-2.md| ✅   |
+| 24강 | 초월함수의 연속과 미분가능성    | p.67-69   | 24-transcendental-continuity.md  | ✅   |
 | 25강 | 여러가지 함수의 미분법(1)       | p.70-71   | 25-differentiation-methods-1.md  | ⬜   |
 | 26강 | 여러가지 함수의 미분법(2)       | p.72-73   | 26-differentiation-methods-2.md  | ⬜   |
 | 27강 | 여러가지 함수의 미분법(3)       | p.74-78   | 27-differentiation-methods-3.md  | ⬜   |
@@ -675,9 +675,9 @@ $$[수식]$$
 **프로젝트 시작일**: 2025-11-17
 **작성자**: Coco (with Claude)
 **목표 완료일**: 2026-02-17 (약 3개월)
-**현재 진행률**: 26.2% (17/65 완료)
-**최근 업데이트**: 2025-12-19 - 17강 완료 (평균변화율 응용, 도함수와 극한, 곱의 미분법, 지수함수 미분)
+**현재 진행률**: 27.7% (18/65 완료)
+**최근 업데이트**: 2025-12-30 - 24강 완료 (초월함수의 연속과 미분가능성)
 
 ---
 
-_다음 작업: 18강 변화율과 도함수(3) 작성_
+_다음 작업: 25강 여러가지 함수의 미분법(1) 작성_
