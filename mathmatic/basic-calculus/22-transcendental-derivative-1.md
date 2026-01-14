@@ -121,12 +121,12 @@ topics:
 
 ### Thm (25): 지수·로그함수의 도함수
 
-|    함수    |       도함수        |
-| :--------: | :-----------------: |
-|   $e^x$    |        $e^x$        |
-|   $a^x$    |     $a^x \ln a$     |
-|  $\ln x$   |    $\frac{1}{x}$    |
-| $\log_a x$ | $\frac{1}{x \ln a}$ |
+|     함수     |              도함수              |
+| :--------: | :---------------------------: |
+|   $e^x$    |             $e^x$             |
+|   $a^x$    |          $a^x \ln a$          |
+|  $\ln x$   | $\frac{1}{x}$, $\frac{x'}{x}$ |
+| $\log_a x$ |      $\frac{1}{x \ln a}$      |
 
 ### 지수함수 도함수의 유도
 
@@ -169,7 +169,7 @@ topics:
 > 
 > $$=\lim_{ h \to 0 } \log_{a}\left( 1+\frac{h}{x} \right)^{\frac{1}{h}}=\lim_{ h \to 0 } \log_{a}\left( 1+\frac{h}{x} \right)^{\frac{x}{h}\cdot\frac{1}{x} }$$
 >
-> $$= \log_{a}e^{\frac{1}{x}}=\frac{\log _{a}e}{x}=\frac{1}{x\cdot \ln a}$$
+> $$= \log_{a}e^{\frac{1}{x}}=\frac{1}{x}\cdot \frac{1}{\ln a}=\frac{1}{x\cdot \ln a}$$
 >
 > $$\therefore (\log_a x)' = \frac{1}{x \ln a}$$
 >
@@ -214,6 +214,17 @@ topics:
 ---
 
 ## 연습문제
+$(\sin x)'$
+$(\cos x)'$
+$(\tan x)'$
+$(\cot x)'$
+$(\sec x)'$
+$(\csc x)'$
+$(e^{x})'$
+$(a^{x})'$
+$(\ln x)'$
+$(\log_{a}x)'$
+
 
 다음 함수의 도함수를 구하시오.
 
