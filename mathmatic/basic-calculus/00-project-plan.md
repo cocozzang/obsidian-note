@@ -244,14 +244,14 @@ y
 | 25강 | 여러가지 함수의 미분법(1)       | p.70-71   | 25-differentiation-methods-1.md  | ✅   |
 | 26강 | 여러가지 함수의 미분법(2)       | p.72-73   | 26-differentiation-methods-2.md  | ✅   |
 | 27강 | 여러가지 함수의 미분법(3)       | p.74-78   | 27-differentiation-methods-3.md  | ✅   |
-| 28강 | 롤의 정리, 평균값 정리          | p.79-81   | 28-mean-value-theorem.md         | ⬜   |
-| 29강 | 곡선과 접선(1)                  | p.82-84   | 29-tangent-line-1.md             | ⬜   |
-| 30강 | 곡선과 접선(2)                  | p.85-89   | 30-tangent-line-2.md             | ⬜   |
-| 31강 | 테일러 급수, 매크로린 급수      | p.90-92   | 31-taylor-series.md              | ⬜   |
+| 28강 | 롤의 정리, 평균값 정리          | p.79-81   | 28-mean-value-theorem.md         | ✅   |
+| 29강 | 곡선과 접선(1)                  | p.82-84   | 29-tangent-line-1.md             | ✅   |
+| 30강 | 곡선과 접선(2)                  | p.85-89   | 30-tangent-line-2.md             | ✅   |
+| 31강 | 테일러 급수, 매크로린 급수      | p.90-92   | 31-taylor-series.md              | ✅   |
 | 32강 | 변곡점 이론, 함수의 증가와 감소 | p.93-96   | 32-function-behavior.md          | ✅   |
 | 33강 | 함수의 극대와 극소(1)           | p.97      | 33-extrema-1.md                  | ✅   |
 | 34강 | 함수의 극대와 극소(2)           | p.98-101  | 34-extrema-2.md                  | ✅   |
-| 35강 | 함수의 극대와 극소(3)           | p.101-104 | 35-extrema-3.md                  | ⬜   |
+| 35강 | 함수의 극대와 극소(3)           | p.101-104 | 35-extrema-3.md                  | ✅   |
 | 36강 | 함수의 극대와 극소(4)           | p.105-107 | 36-extrema-4.md                  | ⬜   |
 | 37강 | 미분과 최대, 최소               | p.108-111 | 37-optimization.md               | ⬜   |
 | 38강 | 방정식, 부등식과 미분(1)        | p.112-114 | 38-equation-inequality-1.md      | ⬜   |
