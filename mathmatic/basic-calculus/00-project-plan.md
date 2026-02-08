@@ -253,12 +253,12 @@ y
 | 34강 | 함수의 극대와 극소(2)           | p.98-101  | 34-extrema-2.md                  | ✅   |
 | 35강 | 함수의 극대와 극소(3)           | p.101-104 | 35-extrema-3.md                  | ✅   |
 | 36강 | 함수의 극대와 극소(4)           | p.105-107 | 36-extrema-4.md                  | ✅   |
-| 37강 | 미분과 최대, 최소               | p.108-111 | 37-optimization.md               | ⬜   |
-| 38강 | 방정식, 부등식과 미분(1)        | p.112-114 | 38-equation-inequality-1.md      | ⬜   |
-| 39강 | 방정식, 부등식과 미분(2)        | p.115-117 | 39-equation-inequality-2.md      | ⬜   |
-| 40강 | 속도, 가속도와 미분(1)          | p.118-121 | 40-velocity-acceleration-1.md    | ⬜   |
-| 41강 | 속도, 가속도와 미분(2)          | p.122-124 | 41-velocity-acceleration-2.md    | ⬜   |
-| 42강 | 기본 편도함수                   | p.125-128 | 42-partial-derivative.md         | ⬜   |
+| 37강 | 미분과 최대, 최소               | p.108-111 | 37-optimization.md               | ✅   |
+| 38강 | 방정식, 부등식과 미분(1)        | p.112-114 | 38-equation-inequality-1.md      | ✅   |
+| 39강 | 방정식, 부등식과 미분(2)        | p.115-117 | 39-equation-inequality-2.md      | ✅   |
+| 40강 | 속도, 가속도와 미분(1)          | p.118-121 | 40-velocity-acceleration-1.md    | ✅   |
+| 41강 | 속도, 가속도와 미분(2)          | p.122-124 | 41-velocity-acceleration-2.md    | ✅   |
+| 42강 | 기본 편도함수                   | p.125-128 | 42-partial-derivative.md         | ✅   |
 
 ---
 
