@@ -148,22 +148,16 @@ $\lim_{x \to a} g(f(x))$에서 $f(x) = t$라 치환하여 쓴다.
 ### (2) $\lim_{x \to 1^-} f(f(x))$
 
 > [!summary]- 풀이
-> $x \to 1^-$일 때, $f(x) \to 0^+$ (그래프에서 $x=1$에서 왼쪽 극한값은 0)
->
-> 다음 단계: $t = f(x) \to 0^+$일 때, $f(t) \to 1$ (그래프에서 $t \to 0^+$일 때 $f(t) \to 1$)
->
-> **답:** $\boxed{1}$
+> $\lim_{ x \to 1^{-} }f(x)=1$
+> $f(1)=0$
+> 답: $\boxed{0}$
 
 ### (3) $\lim_{x \to 1} f(f(x))$
 
 > [!summary]- 풀이
-> 좌극한: $x \to 1^-$일 때 $f(x) \to 0^+$이고, $f(0^+) \to 1$
->
-> 우극한: $x \to 1^+$일 때 $f(x) \to 2^-$이고, $f(2^-) \to f(2) = 1$
->
-> 좌극한 = 우극한 = 1이므로:
->
-> **답:** $\boxed{1}$
+> $\lim_{ x \to 1- }f(f(x))=f(1)=0$
+> $\lim_{ x \to 1^{+} }f(f(x))=f(0)=1$
+> 좌극한 0, 우극한1 극한값은 존재하지 않는다
 
 ---
 
@@ -240,6 +234,46 @@ $\lim_{x \to 3} \frac{f(x) - 1}{x - 3} = 9$일 때, $\lim_{x \to 3} \frac{\{f(x)
 > $$= 9 \cdot \frac{1}{6} = \frac{9}{6} = \frac{3}{2}$$
 >
 > **답:** $\boxed{\frac{3}{2}}$
+
+> [!summary]- 풀이2 (미분과 로피탈정리를 이용한 풀이)
+> f(x)는 0제외한 구간에서 연속이며 미분가능하다.
+> 조건식으로 부터 f(3)=1 임을 알수있다
+>
+> $$
+> given: \lim_{ x \to 3 } f(x)=1
+> $$
+>
+> 위 식으로 조건식을 아래처럼 변형가능하다
+>
+> $$
+> \lim_{ x \to 3 } \frac{f(x)-f(3)}{x-3}=9
+> $$
+>
+> 미분계수 정의에 따라
+>
+> $$
+> f'(3)=9
+> $$
+>
+> 임을 알수있다.
+>
+> 이제 준식을 로피탈정리를 이용해서 풀어보면 (준식에서 f(x)를 약분하면 더 간단하게 풀수있다)
+>
+> $$
+> GE=\lim_{ x \to 3 } \frac{2f(x)\cdot (f'(x))-f'(x)}{2xf(x)+x^{2}f'(x)-9f'(x)}
+> $$
+>
+> $$
+> =\lim_{ x \to 3 } \frac{2f'(x)-f'(x)}{6\cdot 1 + 9 \cdot f'(x)-9f'(x)}
+> $$
+>
+> $$
+> =\lim_{ x \to 3 } \frac{f'(x)}{6}
+> $$
+>
+> $$
+> =\frac{9}{6}=\frac{3}{2}
+> $$
 
 ---
 
@@ -330,50 +364,57 @@ $\lim_{x \to \infty} \frac{f(x)}{x} = 16$이고 $\lim_{x \to \infty} \frac{2f(x)
 
 다음 극한값을 구하여라.
 
-### (1) $\lim_{x \to \infty} \left(\sqrt{x^3 + x^2} - \sqrt{x^3 - x^2}\right)$
+### (1) $\lim_{x \to \infty} \left(\sqrt[3]{x^3 + x^2} - \sqrt[3]{x^3 - x^2}\right)$
 
 > [!summary]- 풀이
-> 유리화를 사용하면:
+> **1. 공식 적용**
 >
-> $$\lim_{x \to \infty} \frac{(\sqrt{x^3 + x^2} - \sqrt{x^3 - x^2})(\sqrt{x^3 + x^2} + \sqrt{x^3 - x^2})}{\sqrt{x^3 + x^2} + \sqrt{x^3 - x^2}}$$
+> 주어진 식을 $a - b$ 형태라고 하면, 분자와 분모에 $(a^2 + ab + b^2)$를 곱해서 분자를 $a^3 - b^3$ 형태로 만듭니다.
 >
-> $$= \lim_{x \to \infty} \frac{(x^3 + x^2) - (x^3 - x^2)}{\sqrt{x^3 + x^2} + \sqrt{x^3 - x^2}}$$
+> - $a = \sqrt[3]{x^3 + x^2}$
+> - $b = \sqrt[3]{x^3 - x^2}$
 >
-> $$= \lim_{x \to \infty} \frac{2x^2}{\sqrt{x^3 + x^2} + \sqrt{x^3 - x^2}}$$
+> $$\lim_{x \to \infty} \frac{(\sqrt[3]{x^3 + x^2} - \sqrt[3]{x^3 - x^2})(\sqrt[3]{(x^3 + x^2)^2} + \sqrt[3]{(x^3 + x^2)(x^3 - x^2)} + \sqrt[3]{(x^3 - x^2)^2})}{\sqrt[3]{(x^3 + x^2)^2} + \sqrt[3]{x^6 - x^4} + \sqrt[3]{(x^3 - x^2)^2}}$$
 >
-> 분자와 분모를 $x^{3/2}$로 나누면 ($x > 0$이므로):
+> **2. 분자 정리**
 >
-> $$= \lim_{x \to \infty} \frac{2x^{1/2}}{\sqrt{1 + \frac{1}{x}} + \sqrt{1 - \frac{1}{x}}}$$
+> 분자는 $(a^3 - b^3)$이 되므로 루트가 벗겨집니다.
 >
-> $$= \frac{\infty}{\sqrt{1} + \sqrt{1}} = \frac{\infty}{2} = \infty$$
+> $$(x^3 + x^2) - (x^3 - x^2) = 2x^2$$
 >
-> **답:** $\boxed{\infty}$
+> **3. 분모의 최고차항 확인**
+>
+> 분모의 각 항에서 최고차항의 차수를 확인해 봅시다.
+>
+> - $\sqrt[3]{(x^3 + x^2)^2} \approx \sqrt[3]{x^6} = x^2$
+> - $\sqrt[3]{x^6 - x^4} \approx \sqrt[3]{x^6} = x^2$
+> - $\sqrt[3]{(x^3 - x^2)^2} \approx \sqrt[3]{x^6} = x^2$
+>
+> 분모와 분자를 모두 $x^2$으로 나누어 줍니다.
+>
+> **4. 극한값 계산**
+>
+> $$\lim_{x \to \infty} \frac{2}{\sqrt[3]{(1 + \frac{1}{x})^2} + \sqrt[3]{1 - \frac{1}{x^2}} + \sqrt[3]{(1 - \frac{1}{x})^2}}$$
+>
+> $x \to \infty$일 때, $\frac{1}{x}$와 $\frac{1}{x^2}$은 모두 $0$으로 수렴하므로:
+>
+> $$\frac{2}{\sqrt[3]{1^2} + \sqrt[3]{1} + \sqrt[3]{1^2}} = \frac{2}{1 + 1 + 1} = \frac{2}{3}$$
+>
+> ---
+>
+> **최종 결과**
+>
+> $$\lim_{x \to \infty} \left(\sqrt[3]{x^3 + x^2} - \sqrt[3]{x^3 - x^2}\right) = \frac{2}{3}$$
 
 ### (2) $\lim_{x \to -\infty} \left(\sqrt{x^2 - 3x} + x\right)$
 
 > [!summary]- 풀이
-> $x \to -\infty$인 경우, $x < 0$이므로 $|x| = -x$이고, $\sqrt{x^2} = |x| = -x$
->
-> $$\sqrt{x^2 - 3x} = |x|\sqrt{1 - \frac{3}{x}} = -x\sqrt{1 - \frac{3}{x}}$$
->
-> 따라서:
->
-> $$\lim_{x \to -\infty} \left(\sqrt{x^2 - 3x} + x\right) = \lim_{x \to -\infty} \left(-x\sqrt{1 - \frac{3}{x}} + x\right)$$
->
-> $$= \lim_{x \to -\infty} x\left(-\sqrt{1 - \frac{3}{x}} + 1\right)$$
->
-> $$= \lim_{x \to -\infty} x\left(1 - \sqrt{1 - \frac{3}{x}}\right)$$
->
-> 분자와 분모에 $\left(1 + \sqrt{1 - \frac{3}{x}}\right)$를 곱하면:
->
-> $$= \lim_{x \to -\infty} x \cdot \frac{1 - \left(1 - \frac{3}{x}\right)}{1 + \sqrt{1 - \frac{3}{x}}}$$
->
-> $$= \lim_{x \to -\infty} x \cdot \frac{\frac{3}{x}}{1 + \sqrt{1 - \frac{3}{x}}}$$
->
-> $$= \lim_{x \to -\infty} \frac{3}{1 + \sqrt{1 - \frac{3}{x}}}$$
->
-> $$= \frac{3}{1 + 1} = \frac{3}{2}$$
->
+>$$
+ \lim_{ t \to \infty } \sqrt{ t^{2}+3t }-t
+>$$
+>$$
+>\lim_{ t \to \infty } \frac{3}{\sqrt{ 1+\frac{3}{t} }+1}=\frac{3}{2}
+>$$
 > **답:** $\boxed{\frac{3}{2}}$
 
 ---
@@ -383,35 +424,15 @@ $\lim_{x \to \infty} \frac{f(x)}{x} = 16$이고 $\lim_{x \to \infty} \frac{2f(x)
 $f(x) = x^2 + x + 2$일 때, $\lim_{\alpha \to \infty} \left\{f\left(\frac{5}{\alpha} + 2\right) - f(2)\right\}^2$을 구하여라.
 
 > [!summary]- 풀이
-> 먼저 $f(2)$를 계산하면:
->
-> $$f(2) = 2^2 + 2 + 2 = 4 + 2 + 2 = 8$$
->
-> 다음으로 $f\left(\frac{5}{\alpha} + 2\right)$를 계산하면:
->
-> $$f\left(\frac{5}{\alpha} + 2\right) = \left(\frac{5}{\alpha} + 2\right)^2 + \left(\frac{5}{\alpha} + 2\right) + 2$$
->
-> $$= \frac{25}{\alpha^2} + \frac{20}{\alpha} + 4 + \frac{5}{\alpha} + 2 + 2$$
->
-> $$= \frac{25}{\alpha^2} + \frac{25}{\alpha} + 8$$
->
-> 따라서:
->
-> $$f\left(\frac{5}{\alpha} + 2\right) - f(2) = \frac{25}{\alpha^2} + \frac{25}{\alpha} + 8 - 8 = \frac{25}{\alpha^2} + \frac{25}{\alpha}$$
->
-> $$= \frac{25 + 25\alpha}{\alpha^2} = \frac{25(1 + \alpha)}{\alpha^2}$$
->
-> 이제 극한값을 계산하면:
->
-> $$\lim_{\alpha \to \infty} \left\{\frac{25(1 + \alpha)}{\alpha^2}\right\}^2 = \lim_{\alpha \to \infty} \frac{625(1 + \alpha)^2}{\alpha^4}$$
->
-> $$= \lim_{\alpha \to \infty} \frac{625(1 + 2\alpha + \alpha^2)}{\alpha^4}$$
->
-> $$= \lim_{\alpha \to \infty} \frac{625}{\alpha^4} + \frac{1250}{\alpha^3} + \frac{625}{\alpha^2}$$
->
-> $$= 0 + 0 + 0 = 0$$
->
-> **답:** $\boxed{0}$
+>$$
+>=\lim_{ \alpha \to \infty } \frac{25}{\alpha^{2}}+\frac{20}{\alpha}+4+\frac{5}{\alpha}+2+2-8
+>$$
+>$$
+>=\lim_{ \alpha \to \infty } (\frac{25}{\alpha^{2}}+\frac{25}{\alpha})^{2}
+>=0
+>$$
+
+
 
 ---
 
