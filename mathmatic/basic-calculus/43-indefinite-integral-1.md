@@ -403,6 +403,88 @@ $$
 
 ---
 
+## 5. 예제 (Thm 44 적용)
+
+### 예제 281
+
+다음 부정적분을 구하여라.
+
+**(1)** $\displaystyle\int \sin^2 \frac{x}{2}\,dx$
+
+**(2)** $\displaystyle\int \cos 3x \sin x\,dx$
+
+**(3)** $\displaystyle\int \tan 2x\,dx$
+
+> [!summary]- 풀이 (1)
+> 반각공식 $\sin^2 \frac{x}{2} = \frac{1 - \cos x}{2}$ 를 적용:
+>
+> $\int \sin^2 \frac{x}{2}\,dx = \int \frac{1-\cos x}{2}\,dx = \frac{1}{2}x - \frac{1}{2}\sin x + C$
+
+> [!summary]- 풀이 (2)
+> 적화공식 $\cos\alpha \sin\beta = \frac{1}{2}(\sin(\alpha+\beta) - \sin(\alpha-\beta))$ 를 적용:
+>
+> $\cos 3x \sin x = \frac{1}{2}(\sin 4x - \sin 2x)$
+>
+> $\int \cos 3x \sin x\,dx = \int \frac{1}{2}(\sin 4x - \sin 2x)\,dx$
+>
+> $= \frac{1}{2}\left(-\frac{1}{4}\cos 4x + \frac{1}{2}\cos 2x\right) + C$
+>
+> $= -\frac{1}{8}\cos 4x + \frac{1}{4}\cos 2x + C$
+
+> [!summary]- 풀이 (3)
+> $\tan 2x = \frac{\sin 2x}{\cos 2x}$ 로 변형, 보조공식 $\int \frac{f'}{f}\,dx = \ln|f| + C$ 를 적용:
+>
+> $\int \tan 2x\,dx = \int \frac{\sin 2x}{\cos 2x}\,dx = -\frac{1}{2}\int \frac{-2\sin 2x}{\cos 2x}\,dx$
+>
+> $= -\frac{1}{2}\ln|\cos 2x| + C$
+
+---
+
+### 예제 282
+
+점 $(0, 1)$을 지나는 곡선 $y = f(x)$ 위의 임의의 점 $(x, y)$에서의 접선의 기울기가 $2\cos x + e^x$일 때, $f(x)$를 구하여라.
+
+> [!summary]- 풀이
+> 접선의 기울기 = $f'(x)$ 이므로:
+>
+> $f(x) = \int (2\cos x + e^x)\,dx = 2\sin x + e^x + C$
+>
+> 초기조건 $f(0) = 1$ 대입:
+>
+> $f(0) = 2\sin 0 + e^0 + C = 0 + 1 + C = 1$
+>
+> $\therefore C = 0$
+>
+> $\boxed{f(x) = 2\sin x + e^x}$
+
+---
+
+### 예제 283
+
+실수 전체의 집합에서 정의된 함수 $f(x)$에 대하여
+$f'(x) = \dfrac{x}{x^2+1}$, $f(0) = 3$일 때 $f(\sqrt{e^2-1})$의 값을 구하여라.
+
+> [!summary]- 풀이
+> 보조공식 $\int \frac{f'}{f}\,dx = \ln|f| + C$ 를 적용:
+>
+> $f(x) = \int \frac{x}{x^2+1}\,dx = \frac{1}{2}\int \frac{2x}{x^2+1}\,dx = \frac{1}{2}\ln|x^2+1| + C$
+>
+> $x^2 + 1 > 0$ 이므로 절댓값 생략 가능:
+>
+> $f(x) = \frac{1}{2}\ln(x^2+1) + C$
+>
+> 초기조건 $f(0) = 3$ 대입:
+>
+> $f(0) = \frac{1}{2}\ln 1 + C = C = 3$
+>
+> $f(x) = \frac{1}{2}\ln(x^2+1) + 3$
+>
+> $x = \sqrt{e^2-1}$ 대입:
+>
+> $f(\sqrt{e^2-1}) = \frac{1}{2}\ln(e^2-1+1) + 3 = \frac{1}{2}\ln e^2 + 3 = 1 + 3 = \boxed{4}$
+
+---
+
 ## 관련 주제
 
 - [[42-partial-derivative|42강: 기본 편도함수]]
@@ -415,3 +497,5 @@ $$
 2. **부정적분과 도함수의 관계**: $F'(x) = f(x)$ 를 이용해 방정식 세우기
 3. **초월함수 적분**: $\tan x$, $\sec x$, $\csc x$ 등은 분자분모 변형 또는 보조공식 $\int \frac{f'}{f} = \ln|f|$ 활용
 4. **$\sin^2 x$, $\cos^2 x$ 적분**: 반드시 반각공식으로 변환 후 적분
+5. **적화공식 활용**: $\cos\alpha\sin\beta$ 꼴은 적화공식으로 분리 후 적분
+6. **접선의 기울기 → 부정적분**: $f'(x)$를 적분하여 $f(x)$ 결정 후 초기조건으로 상수 $C$ 결정
